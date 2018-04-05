@@ -7,7 +7,7 @@
     <ProjectGuid>{F738D505-CD0A-44FC-9A96-C822E1CDAB78}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ハイテンション_プログラマー</RootNamespace>
-    <AssemblyName>ハイテンション！プログラマー</AssemblyName>
+    <AssemblyName>high_tension_interpreter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefineException.cs" />
+    <Compile Include="Identification.cs" />
+    <Compile Include="Interpreter.cs" />
+    <Compile Include="MainProgram.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
